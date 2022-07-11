@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil\build\windows\CMakeFiles\252b5865f7b0bfccc9849479be9bd9e9\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil\build\windows\CMakeFiles\8a26fc1105f955ea31727edab313790b\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CD787CEA-0A61-363B-BDC5-E354921DDC94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

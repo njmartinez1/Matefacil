@@ -1,0 +1,28 @@
+^C:\USERS\NORMA\ONEDRIVE\DOCUMENTOS\APP ESCUELA\MATEFACIL\MATEFACIL\BUILD\WINDOWS\CMAKEFILES\252B5865F7B0BFCCC9849479BE9BD9E9\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil" "FLUTTER_TARGET=C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\norma\OneDrive\Documentos\App Escuela\Matefacil\matefacil\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NORMA\ONEDRIVE\DOCUMENTOS\APP ESCUELA\MATEFACIL\MATEFACIL\BUILD\WINDOWS\CMAKEFILES\8A26FC1105F955EA31727EDAB313790B\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NORMA\ONEDRIVE\DOCUMENTOS\APP ESCUELA\MATEFACIL\MATEFACIL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/norma/OneDrive/Documentos/App Escuela/Matefacil/matefacil/windows" "-BC:/Users/norma/OneDrive/Documentos/App Escuela/Matefacil/matefacil/build/windows" --check-stamp-file "C:/Users/norma/OneDrive/Documentos/App Escuela/Matefacil/matefacil/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
