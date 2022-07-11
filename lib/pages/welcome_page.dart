@@ -14,7 +14,9 @@ class WelcomePage extends StatefulWidget {
 
 class _WelcomePageState extends State<WelcomePage> {
   List images = [
-    "Fondo.jpg",
+    "welcome-one.png",
+    "welcome-two.png",
+    "welcome-three.png"
   ];  
   @override
   Widget build(BuildContext context) {
@@ -29,7 +31,7 @@ class _WelcomePageState extends State<WelcomePage> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                  "../../img/"+images[index]
+                  "img/"+images[index]
                 ),
                fit: BoxFit.cover
 
